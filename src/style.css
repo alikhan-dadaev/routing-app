@@ -1,0 +1,73 @@
+.body{
+    background-color: #333333;
+    color: white;
+    margin: 0;
+}
+.content {
+    width: 1100px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.cover {
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.main {
+    width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+.main button {
+    margin-top: 20px;
+}
+.footer {
+    color: #8b9292;
+    position: fixed;
+    left: 40%; bottom: 0;
+
+}
+.footer b {
+    color: white;
+}
+.navLink {
+    color: #8d8d8d;
+    text-decoration: none;
+}
+.selected {
+    border-bottom: 5px solid #fff;
+    color: white;
+
+}
+
+.navLink:hover {
+    color: #8d8d8d;
+    border-bottom: 5px solid #8d8d8d;
+}
+.features_main {
+    width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    color: aqua;
+}
+.contact {
+    text-align: center;
+    color: whitesmoke;
+}
+#map {
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+}
